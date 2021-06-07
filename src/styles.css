@@ -1,0 +1,36 @@
+#stars i {
+  cursor: pointer;
+}
+
+.fa-star-o:before {
+  content: "\f005";
+  color: #5f6368;
+}
+
+.fa-star:before {
+  content: "\f005";
+  color: #d56e0c;
+}
+
+div#stars {
+  display: flex;
+  justify-content: center;
+  flex-flow: row nowrap;
+}
+
+#display-star {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  font-size: 10rem;
+}
+
+.fa,
+.fas,
+.far,
+.fal,
+.fad,
+.fab {
+  font-size: 8rem;
+}
